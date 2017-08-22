@@ -6,6 +6,7 @@ int factorial(int n){
     	{ cout<<"invalid enter another no"<< endl;
     		cin>>n;
     	}
+    	
     if(n!=1){
 	return(n * factorial(n-1));
     }
